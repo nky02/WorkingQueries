@@ -2,7 +2,7 @@
 USE GroceryStoreDB;
 GO
 
--- Drop tables in the correct order due to foreign key constraints
+-- Drop tables in the correct order 
 DROP TABLE IF EXISTS SalesDetails;
 DROP TABLE IF EXISTS Reports;
 DROP TABLE IF EXISTS Sales;
